@@ -254,6 +254,18 @@
         {
           "diameter": 0.7,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.6
+        },
+        {
+          "diameter": 1.4,
+          "drill": 1.0
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -491,7 +503,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -1160,13 +1172,18 @@
       {
         "filename": "ecran.kicad_sch",
         "name": "ecran",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "73dbfeb9-2376-45d5-afda-d7323e87b30c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-3,#PWR35-37,#PWR52-54",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "73dbfeb9-2376-45d5-afda-d7323e87b30c",
+      "ecran"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

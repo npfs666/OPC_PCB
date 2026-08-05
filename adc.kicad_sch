@@ -3724,7 +3724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2791c81-3508-47a7-bfdc-1fefb263a275")
-		(property "Reference" "CDiff1"
+		(property "Reference" "CDi1"
 			(at 78.74 115.5762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3799,7 +3799,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/8b16e532-0286-4593-b60d-4fadd60abb3b"
-					(reference "CDiff1")
+					(reference "CDi1")
 					(unit 1)
 				)
 			)
@@ -4171,7 +4171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edb3fbe2-24b9-4eb9-8fd1-60037c16c8b4")
-		(property "Reference" "CDiff2"
+		(property "Reference" "CDi2"
 			(at 78.74 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4246,7 +4246,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/8b16e532-0286-4593-b60d-4fadd60abb3b"
-					(reference "CDiff2")
+					(reference "CDi2")
 					(unit 1)
 				)
 			)

@@ -8175,6 +8175,7 @@
 		)
 		(property "Value" "Conn_01x04_Pin"
 			(at 143.51 139.7 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8270,7 +8271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.6 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8568,6 +8569,7 @@
 		)
 		(property "Value" "Conn_01x05"
 			(at 74.93 130.8099 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
