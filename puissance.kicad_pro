@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 1.075
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -65,7 +65,7 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.2,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -148,7 +148,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -262,10 +262,6 @@
         {
           "diameter": 1.4,
           "drill": 1.0
-        },
-        {
-          "diameter": 2.0,
-          "drill": 1.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -503,7 +499,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -525,7 +521,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ecran.kicad_pro",
+    "filename": "puissance.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -558,183 +554,27 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "Net-(U5-COM1)"
+        "pattern": "/Sensor Board/Entrées/INPUT_3_EN"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(J6-Pad07)"
+        "pattern": "/Sensor Board/ADC/AIN1"
       },
       {
         "netclass": "Default",
-        "pattern": "REFN0"
+        "pattern": "Net-(U12A-IN3)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U2-NO4)"
+        "pattern": "unconnected-(J8-Pad17)"
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(A1-AGND-Pad33)"
+        "pattern": "/Puissance/Relay2_MCU"
       },
       {
         "netclass": "Default",
-        "pattern": "AINN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U3-NO4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U5-COM4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "4_WIRE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J7-Pad18)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "I2C1_GPIO_SCK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J7-Pad10)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "INPUT_3_EN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad12)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO10-Pad14)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SPI0_ADC_MISO"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ROTENC_A"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "slash"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U3-NO3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-3V3_EN-Pad37)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U7-INTB-Pad15)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Ecran/ROTENC_-"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SPI1_LCD_MOSI"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ROTENC_B"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U6-DIN)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U7-GPB7-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U7-INTA-Pad16)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad16)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U1-NO4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad05)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad11)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U6-~{CS})"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AIN1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U3-NO2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J7-Pad16)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO9-Pad12)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J7-Pad12)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U7-GPB6-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U8-DC)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "2_WIRE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U8-DIN)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U9-~{RST}-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "16k5_2"
+        "pattern": "/Sensor Board/Connecteur/OUTPUT_6"
       },
       {
         "netclass": "Default",
@@ -742,43 +582,47 @@
       },
       {
         "netclass": "Default",
-        "pattern": "3k3_1"
+        "pattern": "GND2"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U5-COM2)"
+        "pattern": "unconnected-(U7-GPB6-Pad3)"
       },
       {
         "netclass": "Default",
-        "pattern": "INPUT_2_EN"
+        "pattern": "/Sensor Board/Connecteur/SPI1_LCD_MOSI"
       },
       {
         "netclass": "Default",
-        "pattern": "4W"
+        "pattern": "GND1"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(J6-Pad09)"
+        "pattern": "unconnected-(J8-Pad19)"
       },
       {
         "netclass": "Default",
-        "pattern": "I2C0_SENSOR_SCK"
+        "pattern": "Net-(U6-~{CS})"
       },
       {
         "netclass": "Default",
-        "pattern": "AINP"
+        "pattern": "/Sensor Board/ADC/{slash}SPI0_ADC_CS"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(J6-Pad02)"
+        "pattern": "/Puissance/Output1"
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(SW1-PadMP)"
+        "pattern": "Net-(U8-SENSE2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U6-~{DRDY})"
+        "pattern": "unconnected-(U7-INTA-Pad16)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U3-NO4)"
       },
       {
         "netclass": "Default",
@@ -786,219 +630,11 @@
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(U7-NC-Pad7)"
+        "pattern": "/Sensor Board/Entrées/2_WIRE"
       },
       {
         "netclass": "Default",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-ADC_VREF-Pad35)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U9-32KHZ-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO2-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U7-GPB5-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U5-COM3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U8-CS)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "2_3_WIRE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad10)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO11-Pad15)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad08)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U7-GPB4-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO3-Pad5)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "I2C0_SENSOR_DATA"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AIN0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J7-Pad20)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U1-NO3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AIN3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U6-SCLK)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J7-Pad02)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U7-NC-Pad10)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "INPUT_1_EN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U2-NO3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SPI1_LCD_SCK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U9-VBAT-Pad6)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U2-NO1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SPI0_ADC_MOSI"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad04)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SPI0_ADC_SCK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO27_ADC1-Pad32)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Ecran/ROTENC_SW"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "VREF"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LCD_DC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad20)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "REFP0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(A1-VSYS)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U7-~{RESET})"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO8-Pad11)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U1-NO1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U8-CLK)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO0-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Ecran/ROTENC_+"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ROTENC_CLIC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J7-Pad06)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "3k3_2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "16k5_1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "3_WIRE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad06)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J7-Pad04)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J6-Pad18)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U3-NO1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AIN2"
+        "pattern": "unconnected-(J8-Pad15)"
       },
       {
         "netclass": "Default",
@@ -1006,19 +642,111 @@
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO1-Pad2)"
+        "pattern": "unconnected-(J8-Pad09)"
       },
       {
         "netclass": "Default",
-        "pattern": "I2C1_GPIO_DATA"
+        "pattern": "/Sensor Board/Connecteur/ROTENC_A"
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(J7-Pad08)"
+        "pattern": "/Sensor Board/ADC/SPI0_ADC_MISO"
       },
       {
         "netclass": "Default",
-        "pattern": "unconnected-(A1-GPIO28_ADC2-Pad34)"
+        "pattern": "unconnected-(U7-NC-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Entrées/3_WIRE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(A1-ADC_VREF-Pad35)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/REFN0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(J8-Pad12)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(J8-Pad18)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/OUTPUT_1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "slash"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U14-NC-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(OC2-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Puissance/Output2_MCU"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/AIN0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D8-K)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U5-COM4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Puissance/Input1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Entrées/TC_GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(J8-Pad08)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/SPI1_LCD_SCK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U7-GPB4-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J9-Pin_1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/ROTENC_B"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Puissance/Relay1_MCU"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/ROTENC_CLIC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U12A-ILIM)"
       },
       {
         "netclass": "Default",
@@ -1026,11 +754,379 @@
       },
       {
         "netclass": "Default",
-        "pattern": "+3.3V"
+        "pattern": "/Sensor Board/Entrées/4W"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(J8-Pad20)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Entrées/3k3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U5-COM3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U6-SCLK)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U3-NO3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U8-SUB2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/VREF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/AINP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/REFP0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U7-GPB5-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J9-Pin_4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(J8-Pad11)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Puissance/Input2_MCU"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D7-A)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U12A-IN1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U7-~{RESET})"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(A1-GPIO0-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U7-INTB-Pad15)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U14-EN-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Entrées/INPUT_1_EN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J9-Pin_2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U7-GPB7-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U9-~{RST}-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Puissance/Input1_MCU"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Pico/I2C1_GPIO_DATA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(A1-GPIO8-Pad11)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(J8-Pad16)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/OUTPUT_3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(A1-GPIO3-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/OUTPUT_5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Pico/I2C0_SENSOR_SCK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-NO4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U2-NO3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+24V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(A1-GPIO1-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(J8-Pad10)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U3-NO1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(J8-Pad07)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-NO3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/LCD_DC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(A1-AGND-Pad33)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Entrées/TC_VCC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Puissance/Output2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/AIN2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U11-+VIN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Pico/I2C1_GPIO_SCK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U12A-NFAULT-Pad10)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U8-NC-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Puissance/Voutput"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J9-Pin_3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(OC2-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U2-NO1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U8-IN2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Entrées/2_3_WIRE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Puissance/Output1_MCU"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Entrées/INPUT_2_EN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(A1-VSYS)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/AINN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/SPI0_ADC_MOSI"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U8-IN1)"
       },
       {
         "netclass": "Default",
         "pattern": "unconnected-(U10-INT-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U13-VCC2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U7-NC-Pad10)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D6-A)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U8-SENSE1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+5VD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Entrées/4_WIRE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/{slash}SPI1_LCD_CS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U2-NO4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(A1-3V3_EN-Pad37)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-NO1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Entrées/16k5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/AIN3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U5-COM1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/OUTPUT_4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D2-A)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Pico/I2C0_SENSOR_DATA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U8-NC-Pad6)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U6-DIN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U6-~{DRDY})"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U8-SUB1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Pico/Vbat"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Puissance/Input2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/Connecteur/OUTPUT_2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/SPI0_ADC_SCK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D3-A)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U9-32KHZ-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Sensor Board/ADC/{slash}ADC_DRDY"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U3-NO2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U5-COM2)"
       }
     ]
   },
@@ -1170,20 +1266,15 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ecran.kicad_sch",
-        "name": "ecran",
-        "uuid": "73dbfeb9-2376-45d5-afda-d7323e87b30c"
+        "filename": "puissance.kicad_sch",
+        "name": "puissance",
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
-    "used_designators": "#PWR1-3,#PWR35-37,#PWR52-54",
+    "used_designators": "",
     "variants": []
   },
-  "sheets": [
-    [
-      "73dbfeb9-2376-45d5-afda-d7323e87b30c",
-      "ecran"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

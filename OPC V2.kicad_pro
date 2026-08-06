@@ -774,26 +774,11 @@
     "top_level_sheets": [
       {
         "filename": "OPC V2.kicad_sch",
-        "name": "Entrées",
+        "name": "Sensor Board",
         "uuid": "594181e6-a34f-458c-9685-d994528736df"
-      },
-      {
-        "filename": "adc.kicad_sch",
-        "name": "ADC",
-        "uuid": "8b16e532-0286-4593-b60d-4fadd60abb3b"
-      },
-      {
-        "filename": "pico.kicad_sch",
-        "name": "Pico",
-        "uuid": "ab51b0ac-16d4-4438-893b-ad979313d4f6"
-      },
-      {
-        "filename": "puissance.kicad_sch",
-        "name": "Puissance",
-        "uuid": "6becbf07-41ff-4119-abf5-d8f57dd6eb44"
       }
     ],
-    "used_designators": "J1-15,K1-6,SW1-3,L1,RV1-4,OC1-3,Q1,#PWR1-84,CCM3-4,R1-24,TP1-2,C1-22,A1,U1-14,D1-8,CDiff2-3",
+    "used_designators": "RN1-3,A1,C1-22,D1-8,U1-14,R1-26,J1-15,K1-6,RF1-4,SW1-3,CDiff2-3,CDi1-2,L1,RV1-4,OC1-3,Q1,#PWR1-84,CCM1-4,TP1-2",
     "variants": [
       {
         "name": "2"
@@ -803,19 +788,23 @@
   "sheets": [
     [
       "594181e6-a34f-458c-9685-d994528736df",
+      "Sensor Board"
+    ],
+    [
+      "e6add8e5-d5b5-453a-af59-4f27d08ef450",
       "Entrées"
     ],
     [
-      "8b16e532-0286-4593-b60d-4fadd60abb3b",
+      "4e7d77c0-f089-449f-bb85-d9c53540b599",
       "ADC"
     ],
     [
-      "ab51b0ac-16d4-4438-893b-ad979313d4f6",
+      "1471a511-d5fc-4a40-8bcc-7e3684e303d6",
       "Pico"
     ],
     [
-      "6becbf07-41ff-4119-abf5-d8f57dd6eb44",
-      "Puissance"
+      "cb01c09e-2b15-40e2-9aed-1b8210bf4dac",
+      "Connecteur"
     ]
   ],
   "text_variables": {},
