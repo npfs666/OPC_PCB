@@ -1316,7 +1316,7 @@
 		)
 		(uuid "d64be131-47a3-4ea3-9fe1-9b1863434237")
 	)
-	(text "[R1;R4] => Low ppm/K !"
+	(text "R1 & R2 => Low ppm/K !"
 		(exclude_from_sim no)
 		(at 235.966 117.856 0)
 		(effects
@@ -3054,7 +3054,7 @@
 		)
 		(uuid "132ccb4c-e482-4337-a19b-d68a4d6c5a53")
 	)
-	(hierarchical_label "16k5"
+	(hierarchical_label "RREF_16k5"
 		(shape input)
 		(at 193.04 139.7 0)
 		(effects
@@ -3274,7 +3274,7 @@
 		)
 		(uuid "86ee7470-7b9c-4554-816e-c1c7358568bc")
 	)
-	(hierarchical_label "3k3"
+	(hierarchical_label "RREF_1k65"
 		(shape input)
 		(at 193.04 137.16 0)
 		(effects

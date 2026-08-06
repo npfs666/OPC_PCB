@@ -1268,13 +1268,18 @@
       {
         "filename": "puissance.kicad_sch",
         "name": "puissance",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "b2e6993f-467e-4b42-9c79-23dbe0260143"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "b2e6993f-467e-4b42-9c79-23dbe0260143",
+      "puissance"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

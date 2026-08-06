@@ -65,7 +65,7 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.2,
+          "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -778,7 +778,7 @@
         "uuid": "594181e6-a34f-458c-9685-d994528736df"
       }
     ],
-    "used_designators": "RN1-3,A1,C1-22,D1-8,U1-14,R1-26,J1-15,K1-6,RF1-4,SW1-3,CDiff2-3,CDi1-2,L1,RV1-4,OC1-3,Q1,#PWR1-84,CCM1-4,TP1-2",
+    "used_designators": "D1-8,U1-14,A1,C1-22,RF1-4,R1-26,TP1-2,CDiff2-3,CDi1-2,RV1-4,L1,SW1-3,RN1-3,OC1-3,Q1,#PWR1-84,CCM1-4,K1-6,J1-15",
     "variants": [
       {
         "name": "2"

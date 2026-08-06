@@ -7244,6 +7244,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 132.08) (xy 234.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a30d827-da97-4155-84b0-54570af06141")
+	)
+	(wire
+		(pts
 			(xy 163.83 100.33) (xy 163.83 106.68)
 		)
 		(stroke
@@ -7423,6 +7433,16 @@
 			(type default)
 		)
 		(uuid "34122fd3-7635-4de9-bce4-e0fab24e753f")
+	)
+	(wire
+		(pts
+			(xy 229.87 129.54) (xy 234.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345a3eba-27ba-4b39-9193-16e72e289ce6")
 	)
 	(wire
 		(pts
@@ -8066,6 +8086,16 @@
 		)
 		(uuid "8a80e50e-9773-4f60-a11a-c4660cbbb0a3")
 	)
+	(wire
+		(pts
+			(xy 229.87 127) (xy 234.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0f958d-99fa-4552-948b-132f91e5f820")
+	)
 	(polyline
 		(pts
 			(xy 138.43 83.82) (xy 138.43 16.51)
@@ -8197,6 +8227,16 @@
 			(type default)
 		)
 		(uuid "a357f5e0-3aa7-45c6-a1ec-a8e9337b4a6f")
+	)
+	(wire
+		(pts
+			(xy 229.87 137.16) (xy 234.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae4c707-979e-4eaf-8e21-f8efb39f38f4")
 	)
 	(wire
 		(pts
@@ -8437,6 +8477,16 @@
 			(type default)
 		)
 		(uuid "cd7e0866-9832-4ca3-a556-5ab543b2622b")
+	)
+	(wire
+		(pts
+			(xy 229.87 139.7) (xy 234.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38b9ab3-1d69-4ca6-bd08-256b6ba6b0d3")
 	)
 	(wire
 		(pts
@@ -8760,6 +8810,16 @@
 			(type default)
 		)
 		(uuid "f87366e5-f33d-4f59-a82d-e2226d9b1584")
+	)
+	(wire
+		(pts
+			(xy 229.87 142.24) (xy 234.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f995bfa0-b178-417c-962d-785448c26294")
 	)
 	(wire
 		(pts
@@ -9110,6 +9170,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9234,6 +9300,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9313,6 +9385,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9388,6 +9466,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR058")
 					(unit 1)
 				)
@@ -9482,6 +9566,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "K6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9569,6 +9659,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "C18")
 					(unit 1)
 				)
@@ -9688,6 +9784,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9767,6 +9869,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9841,6 +9949,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR069")
 					(unit 1)
 				)
@@ -9925,6 +10039,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10000,6 +10120,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR059")
 					(unit 1)
 				)
@@ -10093,6 +10219,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "C22")
 					(unit 1)
 				)
@@ -10195,6 +10327,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "OC2")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "OC2")
 					(unit 1)
 				)
@@ -10336,6 +10474,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10415,6 +10559,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "D4")
 					(unit 1)
 				)
@@ -10506,6 +10656,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "R15")
 					(unit 1)
 				)
@@ -10712,6 +10868,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "J8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10786,6 +10948,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR074")
 					(unit 1)
 				)
@@ -10882,6 +11050,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10961,6 +11135,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11035,6 +11215,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR053")
 					(unit 1)
 				)
@@ -11128,6 +11314,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "C15")
 					(unit 1)
 				)
@@ -11269,6 +11461,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11360,6 +11558,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11434,6 +11638,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR077")
 					(unit 1)
 				)
@@ -11529,6 +11739,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11612,6 +11828,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "J9")
 					(unit 1)
 				)
@@ -11771,6 +11993,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "U12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11862,6 +12090,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11937,6 +12171,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR071")
 					(unit 1)
 				)
@@ -12019,6 +12259,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12093,6 +12339,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR056")
 					(unit 1)
 				)
@@ -12172,6 +12424,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR064")
 					(unit 1)
 				)
@@ -12269,6 +12527,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12343,6 +12607,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR034")
 					(unit 1)
 				)
@@ -12422,6 +12692,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -12518,6 +12794,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12608,6 +12890,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "U14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12694,6 +12982,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "K5")
 					(unit 1)
 				)
@@ -12813,6 +13107,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12906,6 +13206,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12981,6 +13287,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR070")
 					(unit 1)
 				)
@@ -13078,6 +13390,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13152,6 +13470,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -13235,6 +13559,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13308,6 +13638,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -13404,6 +13740,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13495,6 +13837,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13570,6 +13918,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -13681,6 +14035,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13759,6 +14119,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13833,6 +14199,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR083")
 					(unit 1)
 				)
@@ -13916,6 +14288,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13990,6 +14368,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR079")
 					(unit 1)
 				)
@@ -14072,6 +14456,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14147,6 +14537,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR082")
 					(unit 1)
 				)
@@ -14234,6 +14630,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14309,6 +14711,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -14391,6 +14799,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14465,6 +14879,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR055")
 					(unit 1)
 				)
@@ -14608,6 +15028,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14686,6 +15112,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "D8")
 					(unit 1)
 				)
@@ -14983,6 +15415,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "U11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15070,6 +15508,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "R12")
 					(unit 1)
 				)
@@ -15174,6 +15618,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "U13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15249,6 +15699,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR067")
 					(unit 1)
 				)
@@ -15346,6 +15802,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15420,6 +15882,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR060")
 					(unit 1)
 				)
@@ -15502,6 +15970,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15576,6 +16050,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR054")
 					(unit 1)
 				)
@@ -15655,6 +16135,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR075")
 					(unit 1)
 				)
@@ -15770,6 +16256,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "D6")
 					(unit 1)
 				)
@@ -15913,6 +16405,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15987,6 +16485,12 @@
 		(instances
 			(project "OPC V2"
 				(path "/6becbf07-41ff-4119-abf5-d8f57dd6eb44"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
 					(reference "#PWR072")
 					(unit 1)
 				)
@@ -16084,6 +16588,12 @@
 					(unit 1)
 				)
 			)
+			(project "puissance"
+				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -16091,4 +16601,5 @@
 			(page "10")
 		)
 	)
+	(embedded_fonts no)
 )
