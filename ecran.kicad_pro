@@ -1175,7 +1175,7 @@
         "uuid": "73dbfeb9-2376-45d5-afda-d7323e87b30c"
       }
     ],
-    "used_designators": "#PWR1-3,#PWR35-37,#PWR52-54",
+    "used_designators": "H1-2,#PWR1-3,#PWR35-37,#PWR52-54",
     "variants": []
   },
   "sheets": [
