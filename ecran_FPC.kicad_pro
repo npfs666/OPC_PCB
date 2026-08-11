@@ -65,7 +65,7 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.2,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -525,7 +525,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ecran.kicad_pro",
+    "filename": "ecran_FPC.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1170,18 +1170,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ecran.kicad_sch",
-        "name": "ecran",
+        "filename": "ecran_FPC.kicad_sch",
+        "name": "ecran_FPC",
         "uuid": "73dbfeb9-2376-45d5-afda-d7323e87b30c"
       }
     ],
-    "used_designators": "J1-2,H1-2,#PWR1-3,#PWR34-38,#PWR48,#PWR52-55",
+    "used_designators": "C16,JP1-2,R1,R15,R19-20,J1-2,H1-2,#PWR1-3,#PWR34-42,#PWR48,#PWR52-55",
     "variants": []
   },
   "sheets": [
     [
       "73dbfeb9-2376-45d5-afda-d7323e87b30c",
-      "ecran"
+      "ecran_FPC"
     ]
   ],
   "text_variables": {},

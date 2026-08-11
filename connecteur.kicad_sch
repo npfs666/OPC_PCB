@@ -1195,7 +1195,7 @@
 		)
 		(uuid "4b5a3a2a-7e61-4221-a4c9-74b36b23c2a2")
 	)
-	(hierarchical_label "OUTPUT_6"
+	(hierarchical_label "OUTPUT_5"
 		(shape input)
 		(at 166.37 91.44 0)
 		(effects
@@ -1206,7 +1206,7 @@
 		)
 		(uuid "728d2a06-6083-4613-957d-77c7cd48dbe7")
 	)
-	(hierarchical_label "OUTPUT_5"
+	(hierarchical_label "OUTPUT_4"
 		(shape input)
 		(at 166.37 93.98 0)
 		(effects
@@ -1283,7 +1283,7 @@
 		)
 		(uuid "f32fd432-a660-4095-8580-09c314184bfa")
 	)
-	(hierarchical_label "OUTPUT_4"
+	(hierarchical_label "OUTPUT_6"
 		(shape input)
 		(at 166.37 88.9 0)
 		(effects
@@ -1463,7 +1463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94281455-0e01-4e46-9639-eb7f194b8ea9")
-		(property "Reference" "J7"
+		(property "Reference" "J3"
 			(at 148.59 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1647,7 +1647,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/cb01c09e-2b15-40e2-9aed-1b8210bf4dac"
-					(reference "J7")
+					(reference "J3")
 					(unit 1)
 				)
 			)

@@ -4297,6 +4297,36 @@
 		)
 		(uuid "3e56aafe-b3db-4267-a5da-b98bdfe97ec7")
 	)
+	(text "I2C addr : 0x46"
+		(exclude_from_sim no)
+		(at 133.096 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49697a8c-ac60-4f89-8418-8249033f03e3")
+	)
+	(text "I2C addr : 0x68"
+		(exclude_from_sim no)
+		(at 30.734 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61c445ff-af91-4e85-805c-ea9f8e77b881")
+	)
+	(text "I2C addr : 0x20"
+		(exclude_from_sim no)
+		(at 237.744 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8543a151-014f-41ef-90a4-d8360000aa9b")
+	)
 	(text "GPIO Expansion"
 		(exclude_from_sim no)
 		(at 237.998 15.494 0)
@@ -4360,12 +4390,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bdf89e5-4402-4d8e-a3fa-9f9e30be8cf5")
-	)
-	(junction
-		(at 172.72 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26b4e870-e9e8-47c9-95e6-dd5494aeac3f")
 	)
 	(junction
 		(at 168.91 102.87)
@@ -4452,12 +4476,6 @@
 		(uuid "ca97122b-b37b-4b10-a0dc-0298bd2130d4")
 	)
 	(junction
-		(at 163.83 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d61a9989-7bb3-4503-b785-632817531277")
-	)
-	(junction
 		(at 224.79 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4517,23 +4535,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 27.94) (xy 172.72 27.94)
+			(xy 44.45 76.2) (xy 50.8 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09c95891-75be-4421-b209-35b65654cfa1")
-	)
-	(wire
-		(pts
-			(xy 151.13 48.26) (xy 172.72 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a10f3f1-e88b-44d0-b606-e7e3126e0172")
+		(uuid "08508e5b-28e6-4ad4-a0d6-7bfa2fcfa84c")
 	)
 	(wire
 		(pts
@@ -4604,16 +4612,6 @@
 			(type default)
 		)
 		(uuid "172357b9-09de-4939-a0bf-f2f01af0152f")
-	)
-	(wire
-		(pts
-			(xy 151.13 50.8) (xy 181.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18444c9c-8ddb-4120-826b-cd27a47e9343")
 	)
 	(wire
 		(pts
@@ -4997,16 +4995,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 27.94) (xy 181.61 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52e16789-4001-492c-b1e5-c2151ffbd614")
-	)
-	(wire
-		(pts
 			(xy 144.78 173.99) (xy 115.57 173.99)
 		)
 		(stroke
@@ -5044,26 +5032,6 @@
 			(type default)
 		)
 		(uuid "587fba57-a4d4-46ee-9a76-962525a7ea08")
-	)
-	(wire
-		(pts
-			(xy 45.72 66.04) (xy 50.8 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d739bbf-7dc4-40f3-bf21-3693e38e2f88")
-	)
-	(wire
-		(pts
-			(xy 45.72 60.96) (xy 50.8 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e2d3bca-bbcc-4dc3-a7ee-83a771f9f113")
 	)
 	(wire
 		(pts
@@ -5187,6 +5155,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cda71c8-90ae-4a9d-b3dc-6065e7529e59")
+	)
+	(wire
+		(pts
 			(xy 45.72 81.28) (xy 50.8 81.28)
 		)
 		(stroke
@@ -5247,16 +5225,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 27.94) (xy 181.61 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86fe8ef5-91db-4a58-bb2d-39b9457cc75d")
-	)
-	(wire
-		(pts
 			(xy 256.54 49.53) (xy 250.19 49.53)
 		)
 		(stroke
@@ -5307,16 +5275,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 96.52 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "950346bc-c4d7-4cb0-b6d1-d45fce3f5dec")
-	)
-	(wire
-		(pts
 			(xy 115.57 158.75) (xy 115.57 161.29)
 		)
 		(stroke
@@ -5324,6 +5282,16 @@
 			(type default)
 		)
 		(uuid "97eb2307-0846-4c85-91f6-2f304ecf18a4")
+	)
+	(wire
+		(pts
+			(xy 44.45 78.74) (xy 50.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d92f78c-3602-4520-9eda-efa80daacddc")
 	)
 	(wire
 		(pts
@@ -5357,16 +5325,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 50.8) (xy 181.61 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a17cdac7-0a38-4d6e-aa88-37ee21179101")
-	)
-	(wire
-		(pts
 			(xy 144.78 166.37) (xy 144.78 173.99)
 		)
 		(stroke
@@ -5374,16 +5332,6 @@
 			(type default)
 		)
 		(uuid "a4619d3a-a8bc-4d47-8c93-b54f34a140b7")
-	)
-	(wire
-		(pts
-			(xy 45.72 78.74) (xy 50.8 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7138636-bce5-49ba-98da-13354c45b39e")
 	)
 	(wire
 		(pts
@@ -5424,16 +5372,6 @@
 			(type default)
 		)
 		(uuid "adbab144-f9e0-43eb-84bc-d81d71274332")
-	)
-	(wire
-		(pts
-			(xy 172.72 27.94) (xy 172.72 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adfe121c-e2e7-4f37-a5bf-d88de4fecfdc")
 	)
 	(wire
 		(pts
@@ -5564,16 +5502,6 @@
 			(type default)
 		)
 		(uuid "c7602a84-1a83-441f-a35f-4b9f8127f38c")
-	)
-	(wire
-		(pts
-			(xy 45.72 68.58) (xy 50.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8972793-4e2e-42a0-a5e3-588d87222497")
 	)
 	(wire
 		(pts
@@ -5737,16 +5665,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 48.26) (xy 172.72 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee30aefc-9a5a-4783-856b-f6f6f62705f7")
-	)
-	(wire
-		(pts
 			(xy 64.77 144.78) (xy 64.77 156.21)
 		)
 		(stroke
@@ -5825,7 +5743,7 @@
 		)
 		(uuid "fca8142c-8b43-441b-9f85-c6e6bca14134")
 	)
-	(label "I2C0_SENSOR_SCK"
+	(label "I2C1_SCK"
 		(at 128.27 139.7 180)
 		(effects
 			(font
@@ -5835,7 +5753,7 @@
 		)
 		(uuid "0bf1e64c-f332-4270-82eb-cd194c73df66")
 	)
-	(label "I2C1_GPIO_DATA"
+	(label "I2C1_DATA"
 		(at 218.44 52.07 180)
 		(effects
 			(font
@@ -5845,7 +5763,7 @@
 		)
 		(uuid "1eab0dc5-7aaa-490c-97fe-17ff430a79dd")
 	)
-	(label "I2C1_GPIO_SCK"
+	(label "I2C1_SCK"
 		(at 218.44 49.53 180)
 		(effects
 			(font
@@ -5855,7 +5773,7 @@
 		)
 		(uuid "20c7c3fc-04fb-4ce8-80b4-a55c54abf962")
 	)
-	(label "I2C0_SENSOR_DATA"
+	(label "I2C1_DATA"
 		(at 128.27 142.24 180)
 		(effects
 			(font
@@ -5865,7 +5783,7 @@
 		)
 		(uuid "2cd1e834-2636-4d99-80ed-7c6f593c6e79")
 	)
-	(label "I2C0_SENSOR_DATA"
+	(label "I2C1_DATA"
 		(at 57.15 130.81 180)
 		(effects
 			(font
@@ -5875,7 +5793,7 @@
 		)
 		(uuid "552d75b2-0172-4f24-881e-393942575b32")
 	)
-	(label "I2C0_SENSOR_DATA"
+	(label "I2C1_DATA"
 		(at 151.13 43.18 180)
 		(effects
 			(font
@@ -5885,17 +5803,7 @@
 		)
 		(uuid "6a545b0c-e1f5-47e2-bf94-f6791253f23b")
 	)
-	(label "I2C1_GPIO_DATA"
-		(at 151.13 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ee217d6-f2aa-4f62-914e-557d8381f80b")
-	)
-	(label "I2C0_SENSOR_SCK"
+	(label "I2C1_SCK"
 		(at 151.13 45.72 180)
 		(effects
 			(font
@@ -5905,7 +5813,7 @@
 		)
 		(uuid "7961f546-883e-495a-bd4a-54ccd74fc3f1")
 	)
-	(label "I2C1_GPIO_DATA"
+	(label "I2C1_DATA"
 		(at 45.72 71.12 180)
 		(effects
 			(font
@@ -5925,7 +5833,7 @@
 		)
 		(uuid "8643d6d1-7dc9-40c9-b36d-37f0e6f0e164")
 	)
-	(label "I2C0_SENSOR_SCK"
+	(label "I2C1_SCK"
 		(at 149.86 156.21 0)
 		(effects
 			(font
@@ -5935,7 +5843,7 @@
 		)
 		(uuid "88ab041f-7492-4ecf-ab75-2cd498b51a7a")
 	)
-	(label "I2C0_SENSOR_SCK"
+	(label "I2C1_SCK"
 		(at 57.15 128.27 180)
 		(effects
 			(font
@@ -5945,17 +5853,7 @@
 		)
 		(uuid "8b9972da-3f53-47e6-96ec-3932485c47d9")
 	)
-	(label "I2C1_GPIO_SCK"
-		(at 151.13 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a77dda61-8131-4a67-87ab-6db8e9a08f60")
-	)
-	(label "I2C0_SENSOR_DATA"
+	(label "I2C1_DATA"
 		(at 50.8 163.83 180)
 		(effects
 			(font
@@ -5965,17 +5863,7 @@
 		)
 		(uuid "d20de85c-d3ce-4fe5-9f22-1b5cfd8716d1")
 	)
-	(label "I2C0_SENSOR_SCK"
-		(at 45.72 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d36369e9-f846-48c4-8eaf-3a9e19528586")
-	)
-	(label "I2C1_GPIO_SCK"
+	(label "I2C1_SCK"
 		(at 45.72 73.66 180)
 		(effects
 			(font
@@ -5984,16 +5872,6 @@
 			(justify right bottom)
 		)
 		(uuid "d6c9dd88-28c2-4236-a546-a3560525bf0b")
-	)
-	(label "I2C0_SENSOR_DATA"
-		(at 45.72 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e3186380-73d8-46dc-9e87-14d26b273b4f")
 	)
 	(label "Vbat"
 		(at 27.94 144.78 0)
@@ -6005,7 +5883,7 @@
 		)
 		(uuid "e3334422-6bc7-4775-8363-072e40ee1b8e")
 	)
-	(label "I2C0_SENSOR_SCK"
+	(label "I2C1_SCK"
 		(at 50.8 161.29 180)
 		(effects
 			(font
@@ -6015,7 +5893,7 @@
 		)
 		(uuid "f2a6d958-04e3-49f4-ba4d-923bcaeec549")
 	)
-	(label "I2C0_SENSOR_DATA"
+	(label "I2C1_DATA"
 		(at 149.86 153.67 0)
 		(effects
 			(font
@@ -6124,7 +6002,7 @@
 		)
 		(uuid "34b442e9-17fd-43a6-8032-7a1b9c050d29")
 	)
-	(hierarchical_label "OUTPUT_5"
+	(hierarchical_label "OUTPUT_4"
 		(shape output)
 		(at 101.6 86.36 0)
 		(effects
@@ -6247,12 +6125,12 @@
 	)
 	(hierarchical_label "ROTENC_CLIC"
 		(shape input)
-		(at 45.72 78.74 180)
+		(at 101.6 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "80d26268-cf56-4b8b-ae53-0b4d39d573eb")
 	)
@@ -6344,14 +6222,14 @@
 		)
 		(uuid "a8426046-3054-408c-ae06-069090b4b32d")
 	)
-	(hierarchical_label "OUTPUT_6"
+	(hierarchical_label "OUTPUT_5"
 		(shape output)
-		(at 101.6 88.9 0)
+		(at 44.45 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "aa7cbd1d-2cd0-4631-8eee-48e8138242fa")
 	)
@@ -6399,9 +6277,9 @@
 		)
 		(uuid "b22d1fd5-8d71-4849-ae16-19a653dfd586")
 	)
-	(hierarchical_label "OUTPUT_4"
+	(hierarchical_label "OUTPUT_6"
 		(shape output)
-		(at 45.72 60.96 180)
+		(at 44.45 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6632,7 +6510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cb3458d-7154-4442-9e21-ba6ad2f97674")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 101.854 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6707,7 +6585,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6747,7 +6625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 68.58 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6818,7 +6696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ef554ce-21e6-4bab-a45f-2297f8216ce5")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 218.44 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,7 +6769,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7104,7 +6982,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21782a36-a01f-418f-b81b-055f80a2707a")
-		(property "Reference" "RN1"
+		(property "Reference" "RN2"
 			(at 180.086 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,7 +7064,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "RN1")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -7360,7 +7238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "314141cd-340e-4c70-b4a7-92335e16e90d")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 52.07 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7433,7 +7311,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7765,7 +7643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b7e2a56-2997-4c7f-a19f-d29caa3a2b26")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 72.39 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7840,100 +7718,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 181.61 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ca1e150-516a-46ad-9488-b917dd11fa4f")
-		(property "Reference" "R20"
-			(at 184.15 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4k7"
-			(at 184.15 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 183.388 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C23162"
-			(at 181.61 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a415179e-6d1d-4e54-8d93-c461c295584d")
-		)
-		(pin "1"
-			(uuid "0ad87c50-0510-45d1-b79e-8a9c8fdf1ff1")
-		)
-		(instances
-			(project "OPC V2"
-				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R20")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8028,7 +7813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fe3f5bb-850d-42f3-bb55-d91f3b6531c0")
-		(property "Reference" "RN2"
+		(property "Reference" "RN3"
 			(at 145.288 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8110,7 +7895,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "RN2")
+					(reference "RN3")
 					(unit 1)
 				)
 			)
@@ -8286,7 +8071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97df5315-af07-460b-b417-44e50ced7023")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 66.9133 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8379,7 +8164,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8490,7 +8275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a540ff8f-216d-408c-b96c-4a02845d4f46")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 157.48 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8565,7 +8350,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8739,7 +8524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa4cc299-7a81-464e-b7b0-4f7a2f8976df")
-		(property "Reference" "C11"
+		(property "Reference" "C6"
 			(at 243.84 35.5662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8814,7 +8599,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "C11")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8831,7 +8616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b670fc93-f13d-41ea-9322-20bf0f9be822")
-		(property "Reference" "RN3"
+		(property "Reference" "RN1"
 			(at 160.274 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +8698,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "RN3")
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -8930,7 +8715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b673163b-3413-430b-bc3f-080711f23050")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 228.092 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9088,7 +8873,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9252,99 +9037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 172.72 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c80d0ff8-9ab6-48ed-9db8-e9f2f0e6d0e7")
-		(property "Reference" "R19"
-			(at 175.26 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4k7"
-			(at 175.26 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 174.498 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C23162"
-			(at 172.72 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "98369e7a-72bc-4c81-80f5-49425b6d5396")
-		)
-		(pin "1"
-			(uuid "52e036e1-426d-4bc5-b530-88cb6c4b6731")
-		)
-		(instances
-			(project "OPC V2"
-				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 71.12 128.27 0)
 		(unit 1)
@@ -9356,7 +9048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8f67da7-e931-484c-9676-4d788e6a1def")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 73.66 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9430,7 +9122,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9448,7 +9140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cca4df3a-9bde-4634-b5ef-d10fcb9ae062")
-		(property "Reference" "U10"
+		(property "Reference" "U7"
 			(at 132.08 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9644,7 +9336,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "U10")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9740,7 +9432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5e2342-143b-4ff9-9fd0-dc0dd8d9c882")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 139.7 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9809,7 +9501,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9827,7 +9519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbba00ff-d830-41bc-8f7d-730393efb248")
-		(property "Reference" "C12"
+		(property "Reference" "C1"
 			(at 20.32 156.591 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9889,7 +9581,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "C12")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10219,7 +9911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2353a9a-bd06-4769-8eee-8409b189f0e7")
-		(property "Reference" "R18"
+		(property "Reference" "R15"
 			(at 166.37 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10294,7 +9986,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R18")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10468,7 +10160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa5bd3ed-1083-4dd0-95a0-9477d98466ac")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 110.49 162.5662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10543,7 +10235,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
