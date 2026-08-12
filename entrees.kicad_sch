@@ -3075,7 +3075,7 @@
 		(uuid "fc2ab62c-1f51-4def-8601-e180a734830d")
 	)
 	(hierarchical_label "AINP"
-		(shape passive)
+		(shape bidirectional)
 		(at 158.75 129.54 180)
 		(effects
 			(font
@@ -3163,7 +3163,7 @@
 		(uuid "3cf5aea2-4c05-4af4-8a4d-0a78895692dd")
 	)
 	(hierarchical_label "AINP"
-		(shape passive)
+		(shape bidirectional)
 		(at 83.82 53.34 0)
 		(effects
 			(font
@@ -3196,7 +3196,7 @@
 		(uuid "4c52f53a-0f03-4b3e-a7e8-2495b622c0b0")
 	)
 	(hierarchical_label "AINP"
-		(shape passive)
+		(shape bidirectional)
 		(at 60.96 133.35 180)
 		(effects
 			(font
@@ -3273,7 +3273,7 @@
 		(uuid "6fd9618c-6cc9-4ce7-beb4-ee72af177580")
 	)
 	(hierarchical_label "AINP"
-		(shape passive)
+		(shape bidirectional)
 		(at 236.22 53.34 0)
 		(effects
 			(font
@@ -3339,7 +3339,7 @@
 		(uuid "98c275c5-e2bb-461f-9437-46a367e7fef5")
 	)
 	(hierarchical_label "AINP"
-		(shape passive)
+		(shape bidirectional)
 		(at 160.02 53.34 0)
 		(effects
 			(font

@@ -6200,17 +6200,6 @@
 		)
 		(uuid "a298a32e-821b-41d1-a571-34d94cdc2a8e")
 	)
-	(hierarchical_label "3k3"
-		(shape output)
-		(at 173.99 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a30dae08-677c-4365-9c68-d885721dd5b4")
-	)
 	(hierarchical_label "ROTENC_B"
 		(shape input)
 		(at 45.72 81.28 180)
@@ -6288,6 +6277,17 @@
 		)
 		(uuid "b60f6573-8518-46fd-b054-090b2b6e0736")
 	)
+	(hierarchical_label "RREF_1k65"
+		(shape output)
+		(at 173.99 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b706e099-de44-4a1a-936a-b3c57f41b7a7")
+	)
 	(hierarchical_label "TC_VCC"
 		(shape output)
 		(at 173.99 68.58 0)
@@ -6298,17 +6298,6 @@
 			(justify left)
 		)
 		(uuid "caf6255d-a42b-45a4-ba87-449512b88c3f")
-	)
-	(hierarchical_label "16k5"
-		(shape output)
-		(at 173.99 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db26cbc6-a7ac-4b9f-9d4d-a9fab2addd1e")
 	)
 	(hierarchical_label "{slash}SPI1_LCD_CS"
 		(shape output)
@@ -6331,6 +6320,17 @@
 			(justify left)
 		)
 		(uuid "e3a3fade-7dff-4e5d-9c0e-09c254e8c053")
+	)
+	(hierarchical_label "RREF_16k5"
+		(shape output)
+		(at 173.99 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e552b327-4995-470c-88aa-df927ddcd1aa")
 	)
 	(hierarchical_label "SPI0_ADC_MISO"
 		(shape input)
