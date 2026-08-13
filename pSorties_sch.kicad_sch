@@ -5742,7 +5742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d8591c5-8bde-472b-b889-956c29615522")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 219.71 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5815,7 +5815,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5833,7 +5833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13cb6532-1a13-4148-933c-613eac49e6aa")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 165.1 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5900,7 +5900,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6277,7 +6277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34b6dc0b-5bfe-41b1-8d03-62c8a4486467")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 193.0399 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6352,7 +6352,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6606,7 +6606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fb65f0b-1179-4c27-aeb2-0640540523a3")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 100.3301 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6670,7 +6670,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7514,7 +7514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92dd7a17-f32f-4dc0-82bf-46b7ac1ff89a")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 195.58 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7589,7 +7589,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7607,7 +7607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "941df203-b933-4250-912d-95f33fa2f0e6")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 144.78 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,7 +7704,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8348,7 +8348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47µ"
+		(property "Value" "1µ"
 			(at 184.658 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8392,7 +8392,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C1623"
+		(property "LCSC Part #" "C15849"
 			(at 180.34 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9079,7 +9079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d31f2450-d6f6-4244-915c-a5993ecd012f")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 144.78 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +9176,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9361,7 +9361,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV709"
+		(property "Value" "TLV709A50DBVR"
 			(at 172.72 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9383,7 +9383,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Fixed 5V"
+		(property "Datasheet" ""
 			(at 172.72 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9394,7 +9394,7 @@
 				)
 			)
 		)
-		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5"
+		(property "Description" "LDO 5V"
 			(at 172.72 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9496,7 +9496,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C72523"
 			(at 121.92 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9534,7 +9534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5107fe7-b92d-4de7-a834-3d7b395ddf22")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 184.15 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9609,7 +9609,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9717,7 +9717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8a76053-c2ed-4398-9259-8657f4b0a865")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 184.15 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +9792,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9980,7 +9980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc7622d6-dd18-4dda-a2fe-cd9e7e2f7d2c")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 229.87 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10053,7 +10053,7 @@
 		(instances
 			(project "puissance"
 				(path "/b2e6993f-467e-4b42-9c79-23dbe0260143/39db9153-1d42-494d-ad76-9efc4a0a86d2"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)

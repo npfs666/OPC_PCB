@@ -5,7 +5,7 @@
 	(uuid "594181e6-a34f-458c-9685-d994528736df")
 	(paper "A4")
 	(title_block
-		(title "Entrées & multiplexage")
+		(title "Carte capteur + microcontroleur")
 		(date "2026-07-30")
 		(rev "2")
 	)

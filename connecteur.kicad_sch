@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "6fbae86e-fe56-4c15-8573-8efe1cfc0bd9")
 	(paper "A4")
+	(title_block
+		(title "Connecteur pcb")
+	)
 	(lib_symbols
 		(symbol "OPC:MEC1-110-02-F-D-A"
 			(pin_names
@@ -1588,6 +1591,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "px_x10" ""
+			(at 148.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "12"

@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "39a9ff0a-4da9-42b6-bef8-f26c6952938a")
 	(paper "A4")
+	(title_block
+		(title "Entrées")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1336,9 +1339,19 @@
 		)
 		(uuid "4c7b98d0-46ee-4ded-b4ac-adbbb46e2991")
 	)
+	(text "10ppm/K en standard (5ppm/K ou moins sont bcp plus cher)"
+		(exclude_from_sim no)
+		(at 234.696 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "837d14ea-375e-4482-8a14-b70ef19310fe")
+	)
 	(text "Il est facile de trouver des resistances [2;10] ppm/K en 0603 & 0805"
 		(exclude_from_sim no)
-		(at 236.22 99.568 0)
+		(at 235.966 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3549,6 +3562,39 @@
 				)
 			)
 		)
+		(property "MPN" "TS3A4751PWR "
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "1,49"
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "1.09"
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "da0c1733-91d1-44f4-97e3-05f6feaa13a7")
 		)
@@ -3656,6 +3702,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 207.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 207.01 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3ARB332V"
+			(at 207.01 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0.344"
+			(at 207.01 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0,25"
+			(at 207.01 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4147,6 +4237,50 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 233.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3EKF1004V"
+			(at 233.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0,086"
+			(at 233.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0,021"
+			(at 233.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "20e8e82d-1313-4c89-9123-4f55584223a7")
 		)
@@ -4341,7 +4475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µ"
+		(property "Value" "0.1µ 10V"
 			(at 187.96 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,6 +4520,50 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "885012206020"
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0,095"
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.031"
 			(at 184.15 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4712,6 +4890,39 @@
 				)
 			)
 		)
+		(property "MPN" "TS3A4751PWR "
+			(at 175.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "1,49"
+			(at 175.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "1.09"
+			(at 175.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "33ebeeab-95a5-43aa-9db4-4a03486aed99")
 		)
@@ -4839,6 +5050,50 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 227.33 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3EKF1004V"
+			(at 227.33 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0,086"
+			(at 227.33 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0,021"
+			(at 227.33 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f68ff8bb-8d2a-4fc9-9b4a-72181decd4d9")
 		)
@@ -4877,7 +5132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µ"
+		(property "Value" "0.1µ 10V"
 			(at 90.17 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4932,6 +5187,50 @@
 				)
 			)
 		)
+		(property "MPN" "885012206020"
+			(at 86.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0,095"
+			(at 86.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 86.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.031"
+			(at 86.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6649b01e-b809-4ee0-8623-78f432b2e631")
 		)
@@ -4970,7 +5269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µ"
+		(property "Value" "0.1µ 10V"
 			(at 78.74 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5015,6 +5314,50 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "885012206020"
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0,095"
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.031"
 			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5096,6 +5439,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 220.98 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 220.98 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3ARB1652V"
+			(at 220.98 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0.619"
+			(at 220.98 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0,446 "
+			(at 220.98 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,6 +6126,39 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "691382010004"
+			(at 195.58 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "1.1+3.47"
+			(at 195.58 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.98+3.07"
+			(at 195.58 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "91b80619-7ab5-4d8c-8a1d-248934a59668")
 		)
@@ -5939,7 +6359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µ"
+		(property "Value" "0.1µ 10V"
 			(at 231.14 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5984,6 +6404,50 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
+			(at 227.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "885012206020"
+			(at 227.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0,095"
+			(at 227.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 227.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.031"
 			(at 227.33 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6160,6 +6624,39 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "691382010004"
+			(at 43.18 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "1.1+3.47"
+			(at 43.18 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.98+3.07"
+			(at 43.18 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "f59b93c4-f8f4-4a2b-9304-2c126a73d4da")
 		)
@@ -6315,6 +6812,39 @@
 				)
 			)
 		)
+		(property "MPN" "TS3A4751PWR "
+			(at 66.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "1,49"
+			(at 66.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "1.09"
+			(at 66.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "d60cd525-964a-41d8-b589-acc4efdb5102")
 		)
@@ -6389,7 +6919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µ"
+		(property "Value" "0.1µ 10V"
 			(at 154.94 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,6 +6964,50 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
+			(at 151.13 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "885012206020"
+			(at 151.13 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0,095"
+			(at 151.13 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 151.13 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.031"
 			(at 151.13 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6682,6 +7256,39 @@
 				)
 			)
 		)
+		(property "MPN" "TS3A4751PWR "
+			(at 218.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "1,49"
+			(at 218.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "1.09"
+			(at 218.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "a76ae133-aa1e-40f3-bdbb-b54033daa935")
 		)
@@ -6884,6 +7491,39 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "691382010004"
+			(at 119.38 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "1.1+3.47"
+			(at 119.38 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.98+3.07"
+			(at 119.38 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "7df3455b-4392-4972-a610-fe36036ae53c")
 		)
@@ -7050,6 +7690,39 @@
 				)
 			)
 		)
+		(property "MPN" "TS3A4751PWR "
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "1,49"
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "1.09"
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "5e385ddd-1088-46d6-b348-bfc890a81e30")
 		)
@@ -7157,6 +7830,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 207.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 207.01 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3ARB332V"
+			(at 207.01 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x1" "0.344"
+			(at 207.01 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0,25"
+			(at 207.01 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
