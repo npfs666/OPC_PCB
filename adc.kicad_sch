@@ -1858,7 +1858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cca78da-aa9c-401e-b400-6b196d8889a2")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 219.71 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,28 +1922,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 219.71 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-3GEYJ470V"
-			(at 219.71 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0,086"
 			(at 219.71 92.71 90)
 			(hide yes)
@@ -1966,6 +1944,28 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 219.71 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEYJ470V"
+			(at 219.71 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a37d2644-9a2c-4b8d-b8b9-6df1439256a0")
 		)
@@ -1975,7 +1975,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/4e7d77c0-f089-449f-bb85-d9c53540b599"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2059,28 +2059,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 186.69 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ADS1120IPWR"
-			(at 186.69 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "6,25"
 			(at 186.69 95.25 0)
 			(hide yes)
@@ -2093,6 +2071,28 @@
 			)
 		)
 		(property "px_x10" "4.82"
+			(at 186.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 186.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ADS1120IPWR"
 			(at 186.69 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2183,7 +2183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7n C0G"
+		(property "Value" "4.7n"
 			(at 78.74 130.8162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2238,17 +2238,6 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
-			(at 76.2 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GCM1885C1H472JA16J"
 			(at 76.2 129.54 0)
 			(hide yes)
@@ -2272,6 +2261,17 @@
 			)
 		)
 		(property "px_x10" "0,051"
+			(at 76.2 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata"
 			(at 76.2 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2387,7 +2387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d917318-bd3a-4c61-9328-b693b2899602")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 209.55 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,28 +2451,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 209.55 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-3GEYJ470V"
-			(at 209.55 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0,086"
 			(at 209.55 87.63 90)
 			(hide yes)
@@ -2495,6 +2473,28 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 209.55 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEYJ470V"
+			(at 209.55 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3ec9282b-b3a8-463b-8f16-8f88251ad3c3")
 		)
@@ -2504,7 +2504,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/4e7d77c0-f089-449f-bb85-d9c53540b599"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2586,28 +2586,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 63.5 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERA-3AEB5231V"
-			(at 63.5 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0,198"
 			(at 63.5 59.69 90)
 			(hide yes)
@@ -2620,6 +2598,28 @@
 			)
 		)
 		(property "px_x10" "0,104"
+			(at 63.5 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 63.5 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3AEB5231V"
 			(at 63.5 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -2799,28 +2799,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 63.5 110.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERA-3AED6041V"
-			(at 63.5 110.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0.086"
 			(at 63.5 110.49 90)
 			(hide yes)
@@ -2833,6 +2811,28 @@
 			)
 		)
 		(property "px_x10" "0,052"
+			(at 63.5 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 63.5 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3AED6041V"
 			(at 63.5 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -2959,7 +2959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n C0G"
+		(property "Value" "47n"
 			(at 78.74 118.1162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3014,17 +3014,6 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
-			(at 76.2 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM3195C1H473JA05D"
 			(at 76.2 116.84 0)
 			(hide yes)
@@ -3048,6 +3037,17 @@
 			)
 		)
 		(property "px_x10" "0,143"
+			(at 76.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata"
 			(at 76.2 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3096,7 +3096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n C0G"
+		(property "Value" "47n"
 			(at 78.74 67.3162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,17 +3151,6 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
-			(at 76.2 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM3195C1H473JA05D"
 			(at 76.2 66.04 0)
 			(hide yes)
@@ -3185,6 +3174,17 @@
 			)
 		)
 		(property "px_x10" "0,143"
+			(at 76.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata"
 			(at 76.2 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3222,7 +3222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "673124af-2d82-4824-9e03-94ea95a751c7")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 226.06 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3286,28 +3286,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 226.06 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-3GEYJ470V"
-			(at 226.06 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0,086"
 			(at 226.06 95.25 90)
 			(hide yes)
@@ -3330,6 +3308,28 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 226.06 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEYJ470V"
+			(at 226.06 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7dd62c25-0c8a-4aac-b5c6-6cb4a020a18e")
 		)
@@ -3339,7 +3339,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/4e7d77c0-f089-449f-bb85-d9c53540b599"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3421,28 +3421,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 63.5 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERA-3AEB5231V"
-			(at 63.5 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0,198"
 			(at 63.5 72.39 90)
 			(hide yes)
@@ -3455,6 +3433,28 @@
 			)
 		)
 		(property "px_x10" "0,104"
+			(at 63.5 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 63.5 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3AEB5231V"
 			(at 63.5 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -3492,7 +3492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dd7955b-646c-49ca-b003-3e6be5440e76")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 214.63 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,28 +3556,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 214.63 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-3GEYJ470V"
-			(at 214.63 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0,086"
 			(at 214.63 90.17 90)
 			(hide yes)
@@ -3600,6 +3578,28 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 214.63 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEYJ470V"
+			(at 214.63 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "150eef33-cd44-44ae-9247-e1dfdab47457")
 		)
@@ -3609,7 +3609,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/4e7d77c0-f089-449f-bb85-d9c53540b599"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3795,7 +3795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7n C0G"
+		(property "Value" "4.7n"
 			(at 78.74 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3850,17 +3850,6 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
-			(at 76.2 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GCM1885C1H472JA16J"
 			(at 76.2 53.34 0)
 			(hide yes)
@@ -3884,6 +3873,17 @@
 			)
 		)
 		(property "px_x10" "0,051"
+			(at 76.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata"
 			(at 76.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4087,7 +4087,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 194.31 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4098,7 +4098,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 194.31 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4278,28 +4278,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 63.5 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERA-3AED6041V"
-			(at 63.5 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0.086"
 			(at 63.5 123.19 90)
 			(hide yes)
@@ -4312,6 +4290,28 @@
 			)
 		)
 		(property "px_x10" "0,052"
+			(at 63.5 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 63.5 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3AED6041V"
 			(at 63.5 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -4360,7 +4360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7n C0G"
+		(property "Value" "4.7n"
 			(at 78.74 80.0162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4415,17 +4415,6 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
-			(at 76.2 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GCM1885C1H472JA16J"
 			(at 76.2 78.74 0)
 			(hide yes)
@@ -4449,6 +4438,17 @@
 			)
 		)
 		(property "px_x10" "0,051"
+			(at 76.2 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata"
 			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4497,7 +4497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7n C0G"
+		(property "Value" "4.7n"
 			(at 78.74 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4552,17 +4552,6 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
-			(at 76.2 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GCM1885C1H472JA16J"
 			(at 76.2 104.14 0)
 			(hide yes)
@@ -4586,6 +4575,17 @@
 			)
 		)
 		(property "px_x10" "0,051"
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata"
 			(at 76.2 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4711,7 +4711,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 179.07 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4722,7 +4722,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 179.07 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4760,7 +4760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd08f7b4-ec5d-4ae2-88a7-432ee024044c")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 209.55 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4824,28 +4824,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 209.55 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-3GEYJ470V"
-			(at 209.55 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0,086"
 			(at 209.55 100.33 90)
 			(hide yes)
@@ -4868,6 +4846,28 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 209.55 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEYJ470V"
+			(at 209.55 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "235199d4-661d-4c37-a205-d31ab7d2b39d")
 		)
@@ -4877,7 +4877,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/4e7d77c0-f089-449f-bb85-d9c53540b599"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)

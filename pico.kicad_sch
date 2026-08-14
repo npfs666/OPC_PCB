@@ -6601,7 +6601,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 100.33 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6612,7 +6612,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 100.33 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6716,17 +6716,6 @@
 				)
 			)
 		)
-		(property "MF" "Vishay"
-			(at 68.58 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "B140-E3/61T"
 			(at 68.58 30.48 90)
 			(hide yes)
@@ -6750,6 +6739,17 @@
 			)
 		)
 		(property "px_x10" "0.195"
+			(at 68.58 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Vishay"
 			(at 68.58 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -6787,7 +6787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ef554ce-21e6-4bab-a45f-2297f8216ce5")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 218.44 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,6 +6851,28 @@
 				)
 			)
 		)
+		(property "px_x1" "0,086"
+			(at 218.44 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.02"
+			(at 218.44 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MF" "Panasonic"
 			(at 218.44 72.39 90)
 			(hide yes)
@@ -6873,28 +6895,6 @@
 				)
 			)
 		)
-		(property "px_x1" "0,086"
-			(at 218.44 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x10" "0,021"
-			(at 218.44 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0a45a093-b0b8-436a-9d13-7ce1edd52544")
 		)
@@ -6904,7 +6904,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7205,6 +7205,28 @@
 				)
 			)
 		)
+		(property "px_x1" "0,086"
+			(at 168.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.092"
+			(at 168.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MF" "Walsin"
 			(at 168.91 97.79 0)
 			(hide yes)
@@ -7217,28 +7239,6 @@
 			)
 		)
 		(property "MPN" "WA06X103JTL"
-			(at 168.91 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x1" "0,146"
-			(at 168.91 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x10" "0.092"
 			(at 168.91 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7450,7 +7450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "314141cd-340e-4c70-b4a7-92335e16e90d")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 52.07 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7514,17 +7514,6 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-3GEYJ221V"
-			(at 52.07 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0,086"
 			(at 52.07 144.78 90)
 			(hide yes)
@@ -7547,6 +7536,28 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 52.07 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEYJ221V"
+			(at 52.07 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "59c8347c-7a92-4e06-80d8-0e8630069014")
 		)
@@ -7556,7 +7567,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7976,7 +7987,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 69.85 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7987,7 +7998,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 69.85 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8157,6 +8168,28 @@
 				)
 			)
 		)
+		(property "px_x1" "0,086"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.092"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MF" "Walsin"
 			(at 140.97 97.79 0)
 			(hide yes)
@@ -8169,28 +8202,6 @@
 			)
 		)
 		(property "MPN" "WA06X103JTL"
-			(at 140.97 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x1" "0,146"
-			(at 140.97 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x10" "0.092"
 			(at 140.97 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8470,17 +8481,6 @@
 				)
 			)
 		)
-		(property "MPN" "DS3231MZ+TRL"
-			(at 64.77 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "10.9"
 			(at 64.77 166.37 0)
 			(hide yes)
@@ -8493,6 +8493,17 @@
 			)
 		)
 		(property "px_x10" "8.57"
+			(at 64.77 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DS3231MZ+TRL"
 			(at 64.77 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8614,17 +8625,6 @@
 				)
 			)
 		)
-		(property "MF" "Vishay"
-			(at 43.18 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "B140-E3/61T"
 			(at 43.18 144.78 90)
 			(hide yes)
@@ -8648,6 +8648,17 @@
 			)
 		)
 		(property "px_x10" "0.195"
+			(at 43.18 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Vishay"
 			(at 43.18 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -8685,7 +8696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a540ff8f-216d-408c-b96c-4a02845d4f46")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 157.48 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8751,6 +8762,28 @@
 				)
 			)
 		)
+		(property "px_x1" "0,086"
+			(at 154.94 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.02"
+			(at 154.94 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MF" "Panasonic"
 			(at 154.94 35.56 0)
 			(hide yes)
@@ -8773,28 +8806,6 @@
 				)
 			)
 		)
-		(property "px_x1" "0.086"
-			(at 154.94 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x10" "0.02"
-			(at 154.94 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "447261cc-d3d6-4260-8759-68c15c787a30")
 		)
@@ -8804,7 +8815,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9066,7 +9077,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 241.3 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9077,7 +9088,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 241.3 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9169,6 +9180,28 @@
 				)
 			)
 		)
+		(property "px_x1" "0,086"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.092"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MF" "Walsin"
 			(at 156.21 97.79 0)
 			(hide yes)
@@ -9181,28 +9214,6 @@
 			)
 		)
 		(property "MPN" "WA06X103JTL"
-			(at 156.21 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x1" "0,146"
-			(at 156.21 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x10" "0.092"
 			(at 156.21 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9325,28 +9336,6 @@
 				)
 			)
 		)
-		(property "MF" "Microchip"
-			(at 237.49 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MCP23017-E/ML"
-			(at 237.49 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "1,58"
 			(at 237.49 69.85 0)
 			(hide yes)
@@ -9359,6 +9348,28 @@
 			)
 		)
 		(property "px_x10" "1,57"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Microchip"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCP23017-E/ML"
 			(at 237.49 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9628,7 +9639,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9691,28 +9702,6 @@
 			)
 		)
 		(property "px_x10" ""
-			(at 71.12 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 71.12 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x1" ""
 			(at 71.12 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9922,17 +9911,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "BMP581"
-			(at 132.08 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "2,51"
 			(at 132.08 161.29 0)
 			(hide yes)
@@ -9945,6 +9923,17 @@
 			)
 		)
 		(property "px_x10" "2.24"
+			(at 132.08 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BMP581"
 			(at 132.08 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10078,7 +10067,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10140,28 +10129,6 @@
 		)
 		(property "px_x10" ""
 			(at 137.16 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 137.16 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x1" ""
-			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +10596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2353a9a-bd06-4769-8eee-8409b189f0e7")
-		(property "Reference" "R15"
+		(property "Reference" "R13"
 			(at 166.37 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10695,6 +10662,28 @@
 				)
 			)
 		)
+		(property "px_x1" "0,086"
+			(at 163.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.02"
+			(at 163.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MF" "Panasonic"
 			(at 163.83 35.56 0)
 			(hide yes)
@@ -10717,28 +10706,6 @@
 				)
 			)
 		)
-		(property "px_x1" "0.086"
-			(at 163.83 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x10" "0.02"
-			(at 163.83 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6616fb04-1b11-4a63-86c5-8d29134d9a4b")
 		)
@@ -10748,7 +10715,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/1471a511-d5fc-4a40-8bcc-7e3684e303d6"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11010,7 +10977,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 107.95 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11021,7 +10988,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 107.95 163.83 0)
 			(hide yes)
 			(show_name no)

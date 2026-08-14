@@ -1277,7 +1277,7 @@
         "uuid": "73dbfeb9-2376-45d5-afda-d7323e87b30c"
       }
     ],
-    "used_designators": "U1,DS1,C16,C23,TP1,JP1-2,R1,R11,R15,R19-20,J1-2,H1-2,#PWR1-3,#PWR34-42,#PWR45,#PWR48,#PWR52-55",
+    "used_designators": "U1-2,DS1,C16,C23,TP1,JP1-2,R1,R11,R15,R19-20,J1-2,H1-2,#PWR1-3,#PWR34-42,#PWR45,#PWR48,#PWR52-55",
     "variants": []
   },
   "sheets": [

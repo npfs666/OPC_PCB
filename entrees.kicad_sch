@@ -3562,17 +3562,6 @@
 				)
 			)
 		)
-		(property "MPN" "TS3A4751PWR "
-			(at 142.24 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "1,49"
 			(at 142.24 60.96 0)
 			(hide yes)
@@ -3585,6 +3574,17 @@
 			)
 		)
 		(property "px_x10" "1.09"
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS3A4751PWR "
 			(at 142.24 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3658,7 +3658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02c89f05-ecdd-4db4-8d2e-bd1ec6da281f")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 207.01 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3711,28 +3711,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 207.01 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERA-3ARB332V"
-			(at 207.01 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0.344"
 			(at 207.01 115.57 90)
 			(hide yes)
@@ -3755,6 +3733,28 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 207.01 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3ARB332V"
+			(at 207.01 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "05037bf5-faea-407d-bffb-e05c42bf59c1")
 		)
@@ -3764,7 +3764,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4173,7 +4173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60e96b2f-19a2-4c21-8856-aec6ee7cf549")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 233.68 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,6 +4237,28 @@
 				)
 			)
 		)
+		(property "px_x1" "0,086"
+			(at 233.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.02"
+			(at 233.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MF" "Panasonic"
 			(at 233.68 132.08 90)
 			(hide yes)
@@ -4259,28 +4281,6 @@
 				)
 			)
 		)
-		(property "px_x1" "0,086"
-			(at 233.68 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x10" "0,021"
-			(at 233.68 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "20e8e82d-1313-4c89-9123-4f55584223a7")
 		)
@@ -4290,7 +4290,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4552,7 +4552,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 184.15 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4563,7 +4563,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 184.15 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4890,17 +4890,6 @@
 				)
 			)
 		)
-		(property "MPN" "TS3A4751PWR "
-			(at 175.26 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "1,49"
 			(at 175.26 137.16 0)
 			(hide yes)
@@ -4913,6 +4902,17 @@
 			)
 		)
 		(property "px_x10" "1.09"
+			(at 175.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS3A4751PWR "
 			(at 175.26 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4986,7 +4986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ec3e96f-6e4d-4cfc-8aac-be411ce2d014")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 227.33 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5050,6 +5050,28 @@
 				)
 			)
 		)
+		(property "px_x1" "0,086"
+			(at 227.33 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "px_x10" "0.02"
+			(at 227.33 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MF" "Panasonic"
 			(at 227.33 129.54 90)
 			(hide yes)
@@ -5072,28 +5094,6 @@
 				)
 			)
 		)
-		(property "px_x1" "0,086"
-			(at 227.33 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "px_x10" "0,021"
-			(at 227.33 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f68ff8bb-8d2a-4fc9-9b4a-72181decd4d9")
 		)
@@ -5103,7 +5103,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5209,7 +5209,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 86.36 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +5220,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 86.36 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5346,7 +5346,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5357,7 +5357,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5395,7 +5395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f399263-101f-4e56-9c01-fed649dfb864")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 220.98 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,28 +5448,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 220.98 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERA-3ARB1652V"
-			(at 220.98 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0.619"
 			(at 220.98 127 90)
 			(hide yes)
@@ -5492,6 +5470,28 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 220.98 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3ARB1652V"
+			(at 220.98 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ff4e17ff-549f-4496-afb3-f4e931f1b783")
 		)
@@ -5501,7 +5501,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6436,7 +6436,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 227.33 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6447,7 +6447,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 227.33 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6812,17 +6812,6 @@
 				)
 			)
 		)
-		(property "MPN" "TS3A4751PWR "
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "1,49"
 			(at 66.04 60.96 0)
 			(hide yes)
@@ -6835,6 +6824,17 @@
 			)
 		)
 		(property "px_x10" "1.09"
+			(at 66.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS3A4751PWR "
 			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6996,7 +6996,7 @@
 				)
 			)
 		)
-		(property "MF" "Würth Elektronik"
+		(property "px_x10" "0.031"
 			(at 151.13 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7007,7 +7007,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0.031"
+		(property "MF" "Würth Elektronik"
 			(at 151.13 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7256,17 +7256,6 @@
 				)
 			)
 		)
-		(property "MPN" "TS3A4751PWR "
-			(at 218.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "1,49"
 			(at 218.44 60.96 0)
 			(hide yes)
@@ -7279,6 +7268,17 @@
 			)
 		)
 		(property "px_x10" "1.09"
+			(at 218.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS3A4751PWR "
 			(at 218.44 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7690,17 +7690,6 @@
 				)
 			)
 		)
-		(property "MPN" "TS3A4751PWR "
-			(at 77.47 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "1,49"
 			(at 77.47 143.51 0)
 			(hide yes)
@@ -7713,6 +7702,17 @@
 			)
 		)
 		(property "px_x10" "1.09"
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS3A4751PWR "
 			(at 77.47 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7786,7 +7786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbab310f-fc59-4740-ac2a-d96449bb985e")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 207.01 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,28 +7839,6 @@
 				)
 			)
 		)
-		(property "MF" "Panasonic"
-			(at 207.01 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERA-3ARB332V"
-			(at 207.01 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "px_x1" "0.344"
 			(at 207.01 124.46 90)
 			(hide yes)
@@ -7883,6 +7861,28 @@
 				)
 			)
 		)
+		(property "MF" "Panasonic"
+			(at 207.01 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-3ARB332V"
+			(at 207.01 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5d654daf-9ff0-49d7-ba28-46338edfd2d3")
 		)
@@ -7892,7 +7892,7 @@
 		(instances
 			(project "OPC V2"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
