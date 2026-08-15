@@ -2,8 +2,8 @@
 
 (rule "MAINS clearance"
     (condition "A.hasNetclass('MAINS')")
-    (constraint clearance (min 1.2mm)))
+    (constraint clearance (min 1.5mm)))
 
 (rule "MAINS creepage"
     (condition "A.hasNetclass('MAINS')")
-    (constraint creepage (min 1.2mm)))
+    (constraint creepage (min 1.5mm)))

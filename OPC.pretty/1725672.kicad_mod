@@ -1,0 +1,230 @@
+(footprint "1725672"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1725672-3")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 3.81 0 0)
+		(layer "F.SilkS")
+		(uuid "52e8eb20-62fa-46d7-91a9-dd3544fa30f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1725672"
+		(at 3.81 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b0a63bc5-83bc-45d1-b6fd-b3bbd2626c2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f7c0c88-89c3-4d00-be0c-daeb8aaf612a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e87e79c6-ee33-41b2-b98e-c73881c2da69")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 -3.1)
+		(end -1.5 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0306cae-8e80-4797-8591-8e45da166ab9")
+	)
+	(fp_line
+		(start -1.5 3.1)
+		(end 9.12 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5396b8c2-c701-4b12-8225-ae6afa3ea57e")
+	)
+	(fp_line
+		(start 9.12 -3.1)
+		(end -1.5 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "611198a1-e9ff-4fa0-9def-36745a325bd2")
+	)
+	(fp_line
+		(start 9.12 3.1)
+		(end 9.12 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71c939de-95c0-4b9d-9da9-61f6fa1891af")
+	)
+	(fp_line
+		(start -2.5 -4.1)
+		(end 10.12 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71767a6a-33f9-4525-bfa8-9a26d0071f68")
+	)
+	(fp_line
+		(start -2.5 4.1)
+		(end -2.5 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ca4e947-8c1b-43a7-a314-f404ade67ffe")
+	)
+	(fp_line
+		(start 10.12 -4.1)
+		(end 10.12 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fb20109-c2ae-4fce-9720-0f5b9414f671")
+	)
+	(fp_line
+		(start 10.12 4.1)
+		(end -2.5 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95023fab-d637-4556-80f6-8e98888898aa")
+	)
+	(fp_line
+		(start -1.5 -3.1)
+		(end -1.5 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb187273-cb46-4c50-b156-8819951ffd33")
+	)
+	(fp_line
+		(start -1.5 3.1)
+		(end 9.12 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8601087e-2472-4ad5-8899-2a24ac37faa4")
+	)
+	(fp_line
+		(start 9.12 -3.1)
+		(end -1.5 -3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3054db22-4eb3-4d96-9306-4df35da99501")
+	)
+	(fp_line
+		(start 9.12 3.1)
+		(end 9.12 -3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "923deb41-0c4a-49b4-b125-ce6eb6c5e1ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 0 0)
+		(layer "F.Fab")
+		(uuid "4fe31808-48b5-4d65-9c55-2a301e4416a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a82e0725-9aa1-4570-a953-c17c2a92da64")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d20d7cca-9afb-453c-92f1-bacbe859ce51")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9b0909c-ca58-4b67-82b5-9fa5944ee65a")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "daa05811-cdbc-4bda-a88c-c6079c6a742b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/1725672.stp"
+		(offset
+			(xyz -1.489999987 -3.099999858 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

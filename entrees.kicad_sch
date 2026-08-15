@@ -1319,7 +1319,7 @@
 		)
 		(uuid "d64be131-47a3-4ea3-9fe1-9b1863434237")
 	)
-	(text "R2 & R6 & R7 => Low ppm/K !"
+	(text "R5 & R9 & R10 => Low ppm/K !"
 		(exclude_from_sim no)
 		(at 232.156 102.87 0)
 		(effects
@@ -1416,12 +1416,6 @@
 		(uuid "389ca3bd-dd96-417d-9874-12af487b05df")
 	)
 	(junction
-		(at 237.49 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d7ce650-5700-435a-a529-0e515573b4da")
-	)
-	(junction
 		(at 81.28 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1486,6 +1480,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca4bbe0b-d619-4fbd-bf55-312fac2769d7")
+	)
+	(junction
+		(at 237.49 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f512662c-80f7-4c6b-a131-d5e0218974e5")
 	)
 	(wire
 		(pts
@@ -1659,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 127) (xy 237.49 127)
+			(xy 220.98 127) (xy 237.49 127)
 		)
 		(stroke
 			(width 0)
@@ -1689,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 127) (xy 217.17 127)
+			(xy 190.5 127) (xy 213.36 127)
 		)
 		(stroke
 			(width 0)
@@ -3678,7 +3678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 207.01 117.348 90)
 			(hide yes)
 			(show_name no)
@@ -3711,7 +3711,7 @@
 				)
 			)
 		)
-		(property "px_x1" "0.344"
+		(property "px_x1" "0.396"
 			(at 207.01 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -3722,7 +3722,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0,25"
+		(property "px_x10" "0,28"
 			(at 207.01 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -3744,7 +3744,18 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-3ARB332V"
+		(property "MPN" "ERA-6ARB332V"
+			(at 207.01 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C19679588"
 			(at 207.01 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -4193,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 233.68 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -4226,7 +4237,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23182"
+		(property "LCSC Part #" "C17514"
 			(at 233.68 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -5006,7 +5017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.33 131.318 90)
 			(hide yes)
 			(show_name no)
@@ -5039,7 +5050,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23182"
+		(property "LCSC Part #" "C17514"
 			(at 227.33 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -5385,7 +5396,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 220.98 127 90)
+		(at 217.17 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5396,7 +5407,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f399263-101f-4e56-9c01-fed649dfb864")
 		(property "Reference" "R5"
-			(at 220.98 120.65 90)
+			(at 217.17 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5406,7 +5417,7 @@
 			)
 		)
 		(property "Value" "16k5"
-			(at 220.98 123.19 90)
+			(at 217.17 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5415,8 +5426,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 220.98 128.778 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 217.17 128.778 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5427,7 +5438,7 @@
 			)
 		)
 		(property "Datasheet" "ERA-6ARB332V"
-			(at 220.98 127 0)
+			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +5449,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 220.98 127 0)
+			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,8 +5459,8 @@
 				)
 			)
 		)
-		(property "px_x1" "0.619"
-			(at 220.98 127 90)
+		(property "px_x1" "0.628"
+			(at 217.17 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5459,8 +5470,8 @@
 				)
 			)
 		)
-		(property "px_x10" "0,446 "
-			(at 220.98 127 90)
+		(property "px_x10" "0,486"
+			(at 217.17 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5471,7 +5482,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 220.98 127 90)
+			(at 217.17 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5481,8 +5492,19 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-3ARB1652V"
-			(at 220.98 127 90)
+		(property "MPN" "ERA-6ARB1652V"
+			(at 217.17 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C47115532"
+			(at 217.17 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7806,7 +7828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 207.01 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -7839,7 +7861,7 @@
 				)
 			)
 		)
-		(property "px_x1" "0.344"
+		(property "px_x1" "0.396"
 			(at 207.01 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -7850,7 +7872,7 @@
 				)
 			)
 		)
-		(property "px_x10" "0,25"
+		(property "px_x10" "0,28"
 			(at 207.01 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -7872,7 +7894,18 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-3ARB332V"
+		(property "MPN" "ERA-6ARB332V"
+			(at 207.01 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C19679588"
 			(at 207.01 124.46 90)
 			(hide yes)
 			(show_name no)

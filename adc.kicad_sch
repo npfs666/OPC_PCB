@@ -1132,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 168.91 87.63)
+			(xy 158.75 87.63) (xy 168.91 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1462,7 +1462,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 102.87) (xy 168.91 102.87)
+			(xy 158.75 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1521,12 +1521,12 @@
 		(uuid "26756dd5-d35a-4f09-9bc9-5c0af561c8e3")
 	)
 	(label "REFN0"
-		(at 160.02 102.87 0)
+		(at 158.75 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3458609b-5dbe-42b8-aeba-34a7c975fab4")
 	)
@@ -1541,12 +1541,12 @@
 		(uuid "3bd834bc-fa86-43b5-bebd-5e12b2e017ea")
 	)
 	(label "REFP0"
-		(at 160.02 87.63 0)
+		(at 158.75 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "41f80b4b-6c5c-418e-a1f4-5fc56025edeb")
 	)

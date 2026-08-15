@@ -1884,7 +1884,7 @@
 		)
 	)
 	(rectangle
-		(start 59.69 53.34)
+		(start 59.69 39.37)
 		(end 228.6 133.35)
 		(stroke
 			(width 0)
@@ -1894,6 +1894,17 @@
 			(type none)
 		)
 		(uuid "a6522307-8439-4632-905e-65a8e82a3735")
+	)
+	(text "Vin (max) = @{60 + ${/b2e6993f-467e-4b42-9c79-23dbe0260143/97bef727-136c-4ae9-bc19-a701a61b21b2/99e0dbed-f0a7-4f4c-9860-5a011a33f80f:VALUE} * 0.0021 * 562 / ${/b2e6993f-467e-4b42-9c79-23dbe0260143/97bef727-136c-4ae9-bc19-a701a61b21b2/c8e65150-a29e-4934-ab6e-f5d5b94ba4d4:VALUE}}V"
+		(exclude_from_sim no)
+		(at 128.524 46.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0669c68d-f57a-4ffd-ba79-6407353cf8cb")
 	)
 	(text "OU"
 		(exclude_from_sim no)
@@ -1905,15 +1916,45 @@
 		)
 		(uuid "50e8861f-f4f9-4cac-b0b6-d420144f6fa4")
 	)
+	(text "Tension de seuil de détection du signal"
+		(exclude_from_sim no)
+		(at 102.108 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54ea45f2-bc15-4309-b5ba-38ae85308d3d")
+	)
+	(text "TP1 & TP2 sont là pour la dissipation de chaleur"
+		(exclude_from_sim no)
+		(at 136.906 121.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d647217-5c2d-4373-8874-e64acc345f13")
+	)
 	(text "OU"
 		(exclude_from_sim no)
-		(at 85.344 81.28 0)
+		(at 82.804 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "719f2ce6-86c8-45ec-abb7-5e84a7cb5ec0")
+	)
+	(text "Changer la valeur de R6 et cliquer sur le tableau"
+		(exclude_from_sim no)
+		(at 102.87 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ed27907-80ea-4b3b-8831-6321e900a241")
 	)
 	(text "Isolation galvanique"
 		(exclude_from_sim no)
@@ -1928,7 +1969,7 @@
 	)
 	(text "Entrées logiques"
 		(exclude_from_sim no)
-		(at 134.62 52.07 0)
+		(at 144.78 37.338 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1948,7 +1989,7 @@
 	)
 	(text "OU"
 		(exclude_from_sim no)
-		(at 85.344 105.41 0)
+		(at 82.804 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2174,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 105.41) (xy 149.86 105.41)
+			(xy 148.59 105.41) (xy 149.86 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2413,7 +2454,99 @@
 		)
 		(uuid "fcaef4aa-5b73-45b9-aa6b-e0911ff9162a")
 	)
-	(hierarchical_label "Input2"
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 21.59 21.59)
+		(row_heights 2.54 2.54)
+		(uuid "de556fd8-0d5c-400c-a46e-114916f9bc29")
+		(cells
+			(table_cell "Vin low (V)"
+				(exclude_from_sim no)
+				(at 81.026 43.942 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c12057b3-c1f7-450e-8e21-357e1c03c7aa")
+			)
+			(table_cell "Vin high (V)"
+				(exclude_from_sim no)
+				(at 102.616 43.942 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9201da9b-b483-47d9-af7a-6feea11cba89")
+			)
+			(table_cell "@{7.1+ ${R6:VALUE} * 0.00225 * 562 / ${R5:VALUE} }\n"
+				(exclude_from_sim no)
+				(at 81.026 46.482 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "05091f79-d20b-4a61-9f5c-2f4e5172df8a")
+			)
+			(table_cell "@{8.25+ ${R6:VALUE} * 0.00225 * 562 / ${R5:VALUE} }\n"
+				(exclude_from_sim no)
+				(at 102.616 46.482 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1650ec26-ff4a-4d75-8aab-df43c5a2b7e2")
+			)
+		)
+	)
+	(hierarchical_label "Input1"
 		(shape input)
 		(at 68.58 73.66 180)
 		(effects
@@ -2435,7 +2568,7 @@
 		)
 		(uuid "745fd8ae-63f5-4ade-a662-cbe0fb2e9442")
 	)
-	(hierarchical_label "Input1"
+	(hierarchical_label "Input2"
 		(shape input)
 		(at 68.58 95.25 180)
 		(effects
@@ -2459,7 +2592,7 @@
 	)
 	(symbol
 		(lib_id "Device:Varistor")
-		(at 80.01 81.28 0)
+		(at 77.47 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2470,7 +2603,7 @@
 		(fields_autoplaced yes)
 		(uuid "026ee67e-1a0e-41ae-8e03-d3e7dea7c3d3")
 		(property "Reference" "RV10"
-			(at 82.55 80.2032 0)
+			(at 80.01 80.2032 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2482,7 +2615,7 @@
 			)
 		)
 		(property "Value" "Varistor"
-			(at 82.55 82.7432 0)
+			(at 80.01 82.7432 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2494,7 +2627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.232 81.28 90)
+			(at 75.692 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2505,7 +2638,7 @@
 			)
 		)
 		(property "Datasheet" "EZJ-P1V420FM"
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2516,7 +2649,7 @@
 			)
 		)
 		(property "Description" "0603"
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,7 +2660,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_varistor"
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2538,7 +2671,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,7 +2682,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=A 2=B"
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2693,7 @@
 			)
 		)
 		(property "Sim.Params" "threshold=1k"
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +2704,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,7 +2715,7 @@
 			)
 		)
 		(property "px_1" ""
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2593,7 +2726,7 @@
 			)
 		)
 		(property "px_10" ""
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2604,7 +2737,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 80.01 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +3217,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:D_TVS_Bidirectional_Generic")
-		(at 91.44 105.41 90)
+		(at 88.9 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3095,7 +3228,7 @@
 		(fields_autoplaced yes)
 		(uuid "362ed47d-5122-41e9-ae6d-0b20f2bf5faf")
 		(property "Reference" "D11"
-			(at 93.98 105.4099 90)
+			(at 91.44 105.4099 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +3240,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 87.63 105.41 0)
+			(at 85.09 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +3251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 105.41 0)
+			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,7 +3262,7 @@
 			)
 		)
 		(property "Datasheet" "XGD10603MR"
-			(at 91.44 105.41 0)
+			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3273,7 @@
 			)
 		)
 		(property "Description" "0603"
-			(at 91.44 105.41 0)
+			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,7 +3284,7 @@
 			)
 		)
 		(property "px_1" ""
-			(at 91.44 105.41 90)
+			(at 88.9 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,7 +3295,7 @@
 			)
 		)
 		(property "px_10" ""
-			(at 91.44 105.41 90)
+			(at 88.9 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,7 +3306,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 91.44 105.41 90)
+			(at 88.9 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +3614,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "1000"
 			(at 101.6 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3491,7 +3624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 101.6 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -3524,7 +3657,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17526"
+		(property "LCSC Part #" "C4410"
 			(at 101.6 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -3585,7 +3718,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:D_TVS_Bidirectional_Generic")
-		(at 91.44 81.28 90)
+		(at 88.9 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3596,7 +3729,7 @@
 		(fields_autoplaced yes)
 		(uuid "66a84134-0cd1-43fc-ba2c-23b035d95a3a")
 		(property "Reference" "D10"
-			(at 93.98 81.2799 90)
+			(at 91.44 81.2799 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,7 +3741,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 87.63 81.28 0)
+			(at 85.09 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3619,7 +3752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 81.28 0)
+			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3630,7 +3763,7 @@
 			)
 		)
 		(property "Datasheet" "XGD10603MR"
-			(at 91.44 81.28 0)
+			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3641,7 +3774,7 @@
 			)
 		)
 		(property "Description" "0603"
-			(at 91.44 81.28 0)
+			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3652,7 +3785,7 @@
 			)
 		)
 		(property "px_1" ""
-			(at 91.44 81.28 90)
+			(at 88.9 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3663,7 +3796,7 @@
 			)
 		)
 		(property "px_10" ""
-			(at 91.44 81.28 90)
+			(at 88.9 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3674,7 +3807,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 91.44 81.28 90)
+			(at 88.9 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4033,7 +4166,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "1000"
 			(at 101.6 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4043,7 +4176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 101.6 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -4076,7 +4209,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17526"
+		(property "LCSC Part #" "C4410"
 			(at 101.6 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -4339,7 +4472,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 105.41 90)
+		(at 148.59 105.41 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4350,7 +4483,7 @@
 		(dnp no)
 		(uuid "d181a38f-01b5-433f-a476-f611286a82d5")
 		(property "Reference" "TP1"
-			(at 138.43 105.41 90)
+			(at 142.24 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4360,7 +4493,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 142.7479 107.95 0)
+			(at 146.5579 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +4505,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 144.78 110.49 0)
+			(at 148.59 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,7 +4516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 110.49 0)
+			(at 148.59 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4394,7 +4527,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 144.78 105.41 0)
+			(at 148.59 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4405,7 +4538,7 @@
 			)
 		)
 		(property "px_1" ""
-			(at 144.78 105.41 90)
+			(at 148.59 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,7 +4549,7 @@
 			)
 		)
 		(property "px_10" ""
-			(at 144.78 105.41 90)
+			(at 148.59 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +4560,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 144.78 105.41 90)
+			(at 148.59 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4846,7 +4979,7 @@
 	)
 	(symbol
 		(lib_id "Device:Varistor")
-		(at 80.01 105.41 0)
+		(at 77.47 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4857,7 +4990,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8c9b3bb-a704-4a05-a227-7adc1db64053")
 		(property "Reference" "RV11"
-			(at 82.55 104.3332 0)
+			(at 80.01 104.3332 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,7 +5002,7 @@
 			)
 		)
 		(property "Value" "Varistor"
-			(at 82.55 106.8732 0)
+			(at 80.01 106.8732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,7 +5014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.232 105.41 90)
+			(at 75.692 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4892,7 +5025,7 @@
 			)
 		)
 		(property "Datasheet" "EZJ-P1V420FM"
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +5036,7 @@
 			)
 		)
 		(property "Description" "0603"
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4914,7 +5047,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_varistor"
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4925,7 +5058,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4936,7 +5069,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=A 2=B"
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4947,7 +5080,7 @@
 			)
 		)
 		(property "Sim.Params" "threshold=1k"
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4958,7 +5091,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4969,7 +5102,7 @@
 			)
 		)
 		(property "px_1" ""
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,7 +5113,7 @@
 			)
 		)
 		(property "px_10" ""
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4991,7 +5124,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 80.01 105.41 0)
+			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

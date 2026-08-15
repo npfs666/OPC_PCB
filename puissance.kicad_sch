@@ -4323,6 +4323,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C3816889"
+			(at 33.02 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "017eb39d-f551-4c43-9e38-6d130ded53cb")
 		)
@@ -5373,6 +5384,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C3816889"
+			(at 33.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "12b39e67-e43f-4a8f-8855-737e1b8591a4")
 		)
@@ -5931,6 +5953,17 @@
 			)
 		)
 		(property "px_10" "3.2"
+			(at 44.45 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C6391615"
 			(at 44.45 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6750,7 +6783,7 @@
 				)
 			)
 		)
-		(property "Value" "SIP-4_1779205311"
+		(property "Value" "1779205311"
 			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6761,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_MagIC_THT_Wurth:U_Wurth_WPME-FISM-SIP-4_1779405311"
+		(property "Footprint" "PCM_MagIC_THT_Wurth:U_Wurth_WPME-FISM-SIP-4_1779205311"
 			(at 139.7 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7023,6 +7056,17 @@
 			)
 		)
 		(property "MPN" "1779205311 "
+			(at 127 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C6652237"
 			(at 127 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7516,7 +7560,7 @@
 				(justify right)
 			)
 		)
-		(pin "Output1" output
+		(pin "Output2" output
 			(at 67.31 120.65 180)
 			(uuid "71ef8bbb-1555-4110-b699-86032b9b9f69")
 			(effects
@@ -7526,7 +7570,7 @@
 				(justify left)
 			)
 		)
-		(pin "Output2" output
+		(pin "Output1" output
 			(at 67.31 123.19 180)
 			(uuid "3890ab19-256c-4031-9103-ac747b396e84")
 			(effects
@@ -7622,7 +7666,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Input1" input
+		(pin "Input2" input
 			(at 67.31 78.74 180)
 			(uuid "433d9809-3d96-441b-a68c-4526f35c4961")
 			(effects
@@ -7642,7 +7686,7 @@
 				(justify right)
 			)
 		)
-		(pin "Input2" input
+		(pin "Input1" input
 			(at 67.31 83.82 180)
 			(uuid "0a93e97a-d794-4ce1-a2d5-824d48bd789d")
 			(effects

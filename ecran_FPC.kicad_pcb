@@ -3465,7 +3465,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part #" "C29823"
+		(property "LCSC Part #" "C1779"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6815,6 +6815,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "aa587745-2e5a-4e64-b778-89d852a0236c")
+	)
+	(gr_text "OPC V0.2 - GaOu 2026"
+		(at 109.6 102.5 0)
+		(layer "F.SilkS")
+		(uuid "d270f3f6-de6d-4dee-b7df-b5cf742df01d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "JLCJLCJLC"
+		(at 141.2 141.4 -0)
+		(layer "B.SilkS")
+		(uuid "1247c17a-182c-4755-8ad0-46d0400c23a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 117.2 131.7)
