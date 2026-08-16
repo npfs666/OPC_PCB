@@ -11776,6 +11776,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C29718"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "11fcef06-2903-429b-af4f-f6e87001126a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/1471a511-d5fc-4a40-8bcc-7e3684e303d6/21782a36-a01f-418f-b81b-055f80a2707a")
 		(sheetname "/Pico/")
@@ -14881,6 +14895,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C29718"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f5698a1-0378-4e5b-a4b5-c3a1cd81698d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/1471a511-d5fc-4a40-8bcc-7e3684e303d6/b670fc93-f13d-41ea-9322-20bf0f9be822")
 		(sheetname "/Pico/")
@@ -16080,6 +16108,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0e1a044c-2b67-48a5-a2d3-118bc9bf546a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part #" "C29718"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6f6c3512-4e8b-426f-9296-a34280bed27e")
 			(effects
 				(font
 					(size 1 1)

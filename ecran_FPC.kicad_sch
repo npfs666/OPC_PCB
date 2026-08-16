@@ -4857,7 +4857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PEC11L-4220K-S0015"
+		(property "Value" "PEC11L-4220F-S0015"
 			(at 227.33 62.2299 90)
 			(hide yes)
 			(show_name no)
@@ -4902,7 +4902,7 @@
 				)
 			)
 		)
-		(property "MPN" "PEC11L-4220K-S0015 "
+		(property "MPN" "PEC11L-4220F-S0015 "
 			(at 233.68 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -4913,7 +4913,7 @@
 				)
 			)
 		)
-		(property "px_1" "2.13"
+		(property "px_1" "2.35"
 			(at 233.68 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -4924,7 +4924,7 @@
 				)
 			)
 		)
-		(property "px_10" "1.78"
+		(property "px_10" "2.02"
 			(at 233.68 60.96 90)
 			(hide yes)
 			(show_name no)
