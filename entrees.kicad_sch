@@ -5,7 +5,9 @@
 	(uuid "39a9ff0a-4da9-42b6-bef8-f26c6952938a")
 	(paper "A4")
 	(title_block
-		(title "Entrées")
+		(title "Entrées & Mulitplexage")
+		(date "2026-08-17")
+		(rev "0.2")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1369,7 +1371,7 @@
 		)
 		(uuid "9dc12c9b-892a-4c35-b2b9-990419969511")
 	)
-	(text "Inputs & multiplexing"
+	(text "Inputs & mulitplexeur pour selectionner l'entrée"
 		(exclude_from_sim no)
 		(at 143.002 16.256 0)
 		(effects
@@ -3638,7 +3640,7 @@
 			(uuid "15abafaf-dcc5-4c07-99c7-e177a14a9c7b")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "U6")
 					(unit 1)
@@ -3773,7 +3775,7 @@
 			(uuid "0d7ffb7a-1607-4643-a22c-b992c9093a41")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "R10")
 					(unit 1)
@@ -3852,7 +3854,7 @@
 			(uuid "f55b1620-4af6-4022-a3ee-4d168445caf1")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR066")
 					(unit 1)
@@ -3930,7 +3932,7 @@
 			(uuid "576e236d-f69e-483c-bb0b-d4fbf48e2616")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR08")
 					(unit 1)
@@ -4008,7 +4010,7 @@
 			(uuid "889c2c60-f4e9-4d0e-a22f-fff8747789c7")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR04")
 					(unit 1)
@@ -4086,7 +4088,7 @@
 			(uuid "491af93c-9fde-41a2-9c61-8ed4bacd4eee")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR011")
 					(unit 1)
@@ -4164,7 +4166,7 @@
 			(uuid "99f7a146-0ed1-4fda-afa4-ed30bf227ed9")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR05")
 					(unit 1)
@@ -4299,7 +4301,7 @@
 			(uuid "1a5c9794-437f-44c2-99de-2f8704fd3898")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "R7")
 					(unit 1)
@@ -4377,7 +4379,7 @@
 			(uuid "0dbdd2e6-f5fe-4512-8c61-e3f52dc6bb98")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR012")
 					(unit 1)
@@ -4455,7 +4457,7 @@
 			(uuid "f745dba3-5244-495f-82eb-aab431290728")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR010")
 					(unit 1)
@@ -4592,7 +4594,7 @@
 			(uuid "9d6d3f7d-fed2-4ab4-94c2-1d8f7d3c5453")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "C7")
 					(unit 1)
@@ -4670,7 +4672,7 @@
 			(uuid "ee1bbd2c-c8e9-4ff7-bd3a-c48a3b1c35d6")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR06")
 					(unit 1)
@@ -4748,7 +4750,7 @@
 			(uuid "f099de87-97ac-4d6c-9358-0cb004aee847")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR061")
 					(unit 1)
@@ -4977,7 +4979,7 @@
 			(uuid "8911ba91-7570-4cb6-93af-f65a20828a04")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "U4")
 					(unit 1)
@@ -5112,7 +5114,7 @@
 			(uuid "907974aa-946d-497b-bd07-d9951b058b89")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "R3")
 					(unit 1)
@@ -5249,7 +5251,7 @@
 			(uuid "588099b4-bf3e-4e2d-9ac7-ccf17bee7636")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "C3")
 					(unit 1)
@@ -5386,7 +5388,7 @@
 			(uuid "ba8533f7-8246-45ee-b516-c9d1ca13ae1b")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "C2")
 					(unit 1)
@@ -5521,7 +5523,7 @@
 			(uuid "38634934-dbce-4e00-a484-03c30a439b30")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "R5")
 					(unit 1)
@@ -5599,7 +5601,7 @@
 			(uuid "0ebbfc91-8d0e-4f3a-a967-8481f722a28c")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR07")
 					(unit 1)
@@ -5677,7 +5679,7 @@
 			(uuid "da4ac5b4-3835-4351-b27f-f2d4a9b50de5")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR016")
 					(unit 1)
@@ -5755,7 +5757,7 @@
 			(uuid "6b8cf6f3-1739-4c79-800f-021abb06b529")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR03")
 					(unit 1)
@@ -5833,7 +5835,7 @@
 			(uuid "65152425-ab13-4b03-8b45-018e84036b04")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR013")
 					(unit 1)
@@ -5911,7 +5913,7 @@
 			(uuid "c5c5cda2-a4e1-426d-b195-ec2c95548182")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR09")
 					(unit 1)
@@ -5989,7 +5991,7 @@
 			(uuid "a2d328ff-b566-48b1-af1c-3093806e6685")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR01")
 					(unit 1)
@@ -6194,7 +6196,7 @@
 			(uuid "59ad08a0-69ef-40a2-a3ee-6ab809738d3c")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "J4")
 					(unit 1)
@@ -6272,7 +6274,7 @@
 			(uuid "a9dd51de-8e13-4ede-9073-697e92086b20")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR02")
 					(unit 1)
@@ -6350,7 +6352,7 @@
 			(uuid "a75c8072-d57c-49b4-abc3-fa87133a3ace")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR015")
 					(unit 1)
@@ -6487,7 +6489,7 @@
 			(uuid "5342c7f8-4688-44a7-80f0-9cc1aef07d61")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "C11")
 					(unit 1)
@@ -6692,7 +6694,7 @@
 			(uuid "bee10b1a-2504-4dc5-88c5-f77392e0b338")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "J1")
 					(unit 1)
@@ -6910,7 +6912,7 @@
 			(uuid "72ec0319-f258-4dc2-9f32-0371060655f3")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "U2")
 					(unit 1)
@@ -7047,7 +7049,7 @@
 			(uuid "70712e4a-f876-4967-a10b-c13c419f16cc")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "C8")
 					(unit 1)
@@ -7125,7 +7127,7 @@
 			(uuid "22d12749-24e1-4b39-b9df-b5149e552b3f")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "#PWR014")
 					(unit 1)
@@ -7354,7 +7356,7 @@
 			(uuid "3f4c0421-3d07-40f4-ab01-8062d7808429")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "U9")
 					(unit 1)
@@ -7559,7 +7561,7 @@
 			(uuid "2d04dde9-a2e7-48d8-810e-273f0cf832f5")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "J2")
 					(unit 1)
@@ -7788,7 +7790,7 @@
 			(uuid "83855c87-7e90-4e25-a536-f840a91a8e04")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "U1")
 					(unit 1)
@@ -7923,7 +7925,7 @@
 			(uuid "9e1d76c5-e9d9-4d8e-92ba-cb325977d970")
 		)
 		(instances
-			(project "OPC V2"
+			(project "OPC V3"
 				(path "/594181e6-a34f-458c-9685-d994528736df/e6add8e5-d5b5-453a-af59-4f27d08ef450"
 					(reference "R9")
 					(unit 1)

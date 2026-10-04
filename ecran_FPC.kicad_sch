@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "73dbfeb9-2376-45d5-afda-d7323e87b30c")
 	(paper "A4")
+	(title_block
+		(title "Carte mère / HMI")
+		(date "2026-08-17")
+		(rev "0.2")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

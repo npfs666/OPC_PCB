@@ -23208,14 +23208,6 @@
 		(uuid "67343ce6-de92-4cfc-b117-97deaf840a1e")
 	)
 	(segment
-		(start 148.02 122.22)
-		(end 148.02 121.48)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "/Connecteur/OUTPUT_1")
-		(uuid "86d77131-d2fd-42e3-be1b-6dd61f9cd625")
-	)
-	(segment
 		(start 162.8 118.4)
 		(end 163.3 118.4)
 		(width 0.3)

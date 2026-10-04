@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "d49e1a51-7bc4-479d-883b-a6846956fd5c")
 	(paper "A4")
+	(title_block
+		(title "Sorties PWM & Relais")
+		(date "2026-08-17")
+		(rev "0.2")
+	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
 			(pin_numbers

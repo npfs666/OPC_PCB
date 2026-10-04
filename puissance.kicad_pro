@@ -273,7 +273,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1545,16 +1545,16 @@
   },
   "sheets": [
     [
+      "b2e6993f-467e-4b42-9c79-23dbe0260143",
+      "puissance"
+    ],
+    [
       "97bef727-136c-4ae9-bc19-a701a61b21b2",
       "Entrée"
     ],
     [
       "39db9153-1d42-494d-ad76-9efc4a0a86d2",
       "Sorties"
-    ],
-    [
-      "b2e6993f-467e-4b42-9c79-23dbe0260143",
-      "puissance"
     ]
   ],
   "text_variables": {},
